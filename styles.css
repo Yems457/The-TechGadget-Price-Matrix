@@ -1,0 +1,22 @@
+.container {
+  max-width: 600px; /* Limits width to 600 pixels */
+  margin: 0 auto;        /* Centers the container */
+  padding: 20px;         /* Space inside the border */
+  background-color: #f4f4f4;
+  border: 1px solid #333;
+  border-radius: 8px;    /* Rounded corners */
+}
+
+h1 {
+
+  height: 10vh; 
+  column-width: 40%;
+  padding: 0.1cm;
+  margin: 0.1cm;
+
+}
+
+/* Targets the first <p> element within its parent */
+p:first-of-type {
+  color: red;
+  font-weight: bold;
