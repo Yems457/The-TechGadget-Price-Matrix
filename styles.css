@@ -7,16 +7,43 @@
   border-radius: 8px;    /* Rounded corners */
 }
 
-h1 {
+.hero {
 
-  height: 10vh; 
+  height: 0.5vh; 
   column-width: 40%;
   padding: 0.1cm;
   margin: 0.1cm;
 
 }
 
-/* Targets the first <p> element within its parent */
-p:first-of-type {
-  color: red;
+/* Targets the first article in the grid */
+article:first-of-type {
+  border: 2px solid gold;
+}
+
+footer a {
+  color: grey;
+  text-decoration: none;
+}
+
+.price-tag > span {
+  /* Your styles here */
+  color: green;
   font-weight: bold;
+}
+
+/* Style only paragraphs immediately following an h2 */
+h2 + p {
+  color: blue;
+  font-style: italic;
+  font-weight: bold;
+}
+
+button {
+  background-color: burlywood;
+  color: white;
+}
+
+button:hover {
+  background-color: darkblue; /* The color it changes to on hover */
+}
